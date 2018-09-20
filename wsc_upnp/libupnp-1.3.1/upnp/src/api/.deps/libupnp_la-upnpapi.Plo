@@ -1,0 +1,423 @@
+src/api/libupnp_la-upnpapi.lo: src/api/upnpapi.c src/inc/config.h \
+ ../autoconfig.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/assert.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/features.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_config.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/cdefs.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/signal.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigset.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wordsize.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stddef.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/typesizes.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/endian.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap-common.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sgidefs.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/signum.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/time.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/siginfo.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigaction.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigcontext.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigstack.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigthread.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdlib.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/select.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/select.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/time.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/sysmacros.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/alloca.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/string.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/stat.h \
+ src/inc/upnpapi.h ../upnp/inc/upnp.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdio.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_stdio.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/wchar.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wchar.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_mutex.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/pthread.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sched.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sched.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_clk_tck.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/setjmp.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_pthread.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdarg.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/stdio_lim.h \
+ ../ixml/inc/ixml.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/malloc.h \
+ ../upnp/inc/upnpconfig.h ../upnp/inc/upnpdebug.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/in.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdint.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdint.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/socket.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/uio.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uio.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/socket.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/limits.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/syslimits.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/limits.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix1_lim.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/local_lim.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/limits.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_local_lim.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix2_lim.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sockaddr.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/socket.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/sockios.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/ioctl.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/ioctl.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/in.h \
+ src/inc/client_table.h src/inc/uri.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/errno.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/errno.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/errno.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/errno.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/errno-base.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/ctype.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_touplow.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/arpa/inet.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix_opt.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/confname.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netdb.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/netdb.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/time.h \
+ src/inc/service_table.h src/inc/config.h ../threadutil/inc/TimerThread.h \
+ ../threadutil/inc/ithread.h ../threadutil/inc/LinkedList.h \
+ ../threadutil/inc/FreeList.h ../threadutil/inc/ThreadPool.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/timeb.h \
+ src/inc/upnp_timeout.h src/inc/httpreadwrite.h src/inc/util.h \
+ src/inc/sock.h src/inc/httpparser.h src/inc/membuffer.h \
+ ../threadutil/inc/LinkedList.h src/inc/ssdplib.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/setjmp.h \
+ src/inc/httpreadwrite.h src/inc/miniserver.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/syslog.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/in_systm.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/ip.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/ip_icmp.h \
+ src/inc/soaplib.h ../threadutil/inc/ThreadPool.h src/inc/membuffer.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/ioctl.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/ioctls.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/ioctls.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/ioctl-types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/ttydefaults.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/if.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/int-ll64.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/bitsperlong.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/bitsperlong.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/posix_types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/stddef.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/posix_types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/sgidefs.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/posix_types.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/socket.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/hdlc/ioctl.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/utsname.h \
+ /home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/utsname.h \
+ src/inc/gena.h src/inc/service_table.h src/inc/miniserver.h \
+ src/inc/webserver.h src/inc/urlconfig.h
+
+src/inc/config.h:
+
+../autoconfig.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/assert.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/features.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_config.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/cdefs.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/signal.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigset.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wordsize.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stddef.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/typesizes.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/endian.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap-common.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sgidefs.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/signum.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/time.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/siginfo.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigaction.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigcontext.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigstack.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigthread.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdlib.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/select.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/select.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/time.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/sysmacros.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/alloca.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/string.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/stat.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/stat.h:
+
+src/inc/upnpapi.h:
+
+../upnp/inc/upnp.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdio.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_stdio.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/wchar.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wchar.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_mutex.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/pthread.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sched.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sched.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_clk_tck.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/setjmp.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_pthread.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdarg.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/stdio_lim.h:
+
+../ixml/inc/ixml.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/malloc.h:
+
+../upnp/inc/upnpconfig.h:
+
+../upnp/inc/upnpdebug.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/in.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdint.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdint.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/socket.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/uio.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uio.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/socket.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/limits.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/syslimits.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/limits.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix1_lim.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/local_lim.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/limits.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_local_lim.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix2_lim.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sockaddr.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/socket.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/sockios.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/ioctl.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/ioctl.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/in.h:
+
+src/inc/client_table.h:
+
+src/inc/uri.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/fcntl.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/fcntl.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/errno.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/errno.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/errno.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/errno.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/errno-base.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/ctype.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_touplow.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/arpa/inet.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix_opt.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/confname.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/getopt.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netdb.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/netdb.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/time.h:
+
+src/inc/service_table.h:
+
+src/inc/config.h:
+
+../threadutil/inc/TimerThread.h:
+
+../threadutil/inc/ithread.h:
+
+../threadutil/inc/LinkedList.h:
+
+../threadutil/inc/FreeList.h:
+
+../threadutil/inc/ThreadPool.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/timeb.h:
+
+src/inc/upnp_timeout.h:
+
+src/inc/httpreadwrite.h:
+
+src/inc/util.h:
+
+src/inc/sock.h:
+
+src/inc/httpparser.h:
+
+src/inc/membuffer.h:
+
+../threadutil/inc/LinkedList.h:
+
+src/inc/ssdplib.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/setjmp.h:
+
+src/inc/httpreadwrite.h:
+
+src/inc/miniserver.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/syslog.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/in_systm.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/ip.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/ip_icmp.h:
+
+src/inc/soaplib.h:
+
+../threadutil/inc/ThreadPool.h:
+
+src/inc/membuffer.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/ioctl.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/ioctls.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/ioctls.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/ioctl-types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/ttydefaults.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/if.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/int-ll64.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/bitsperlong.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/bitsperlong.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/posix_types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/stddef.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/posix_types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/sgidefs.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/posix_types.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/socket.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/hdlc/ioctl.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/utsname.h:
+
+/home/fan/qz_proj/audio_dongle/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/utsname.h:
+
+src/inc/gena.h:
+
+src/inc/service_table.h:
+
+src/inc/miniserver.h:
+
+src/inc/webserver.h:
+
+src/inc/urlconfig.h:
